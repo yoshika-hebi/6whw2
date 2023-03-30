@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+
+
+/*
+Base style
+*/
+/* body{
+    おそらくbootstrapの初期設定が邪魔して反映されない！！！
+    font-family: 'Klee One', cursive;
+
+} */
+
+a{
+    display: inline-block;
+}
+
+/*
+container
+*/
+.container{
+    font-family: 'Klee One', cursive;
+    margin-bottom: 100px;
+}
+
+.container a{
+    text-decoration: none;
+}
+
+/*
+hero
+*/
+.hero{
+    width: 100vw;
+    position: relative;
+
+}
+
+.hero > p {
+    font-family: 'Klee One', cursive;
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    margin: 40px 0 0 30px;
+}
+
+/*
+kinds
+*/
+.kinds{
+    margin: 20px 0px 0px 0px;
+    width: 100%;
+}
+
+.kinds h1{
+    margin: 30px 0px;
+}
+
+.kinds-tab > a{
+    padding: 10px;
+    background: #ccc;
+    color: #000;
+    font-size: 20px;
+    border-radius: 10px;
+
+}
+
+.kinds-contents a{
+    color: #000;
+}
+
+.kinds-contents-list > ul{
+    display: flex;
+}
+
+.grid-item{
+    margin: 0px 5px;
+    list-style: none;
+}
+
+.card-link > img{
+    width: 100%;
+}
+
+.kinds-tab-item.is-active{
+    background: crimson;
+    color: #fff;
+}
+
+/* 
+Q&A
+*/
+.test{
+    width: 100%;
+   display: flex;
+}
+
+
+.accordion{
+    width: 50%;
+    text-align: center
+}
+
+.accordion-trigger {
+    margin-bottom: 0px;
+    padding: 10px;
+    display: block;
+    background: #333;
+    color: #fff;
+    border-top: 1px solid #fff;
+}
+.accordion-contents {
+    margin: 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: none;
+}
